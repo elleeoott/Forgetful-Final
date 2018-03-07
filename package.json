@@ -1,0 +1,28 @@
+{
+  "name": "forgetful-final",
+  "version": "1.0.0",
+  "description": "Dependencies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edarst/Forgetful-Final.git"
+  },
+  "author": "ED, 2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edarst/Forgetful-Final/issues"
+  },
+  "homepage": "https://github.com/edarst/Forgetful-Final#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.1"
+  }
+}
